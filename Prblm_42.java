@@ -5,6 +5,7 @@ class Prblm_42
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        sc.close();
         for(int i=1;i<=(2*n);i++)
         {
             System.out.print("*");

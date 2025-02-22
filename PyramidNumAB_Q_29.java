@@ -1,19 +1,20 @@
 import java.util.Scanner;
-class UpperRightTriangularNumAB{
+class PyramidNumAB_Q_29{
     public static void main(String[]args)
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        for(int i=0;i<n;i++)
+        sc.close();
+        for(int i=1;i<=n;i++)
         {
-            for(int k=1;k<=2*i;k++)
+            for(int k=1;k<=(n-i);k++)
             {
                 System.out.print(" ");
             }
-            for(int j=0;j<n-i;j++)
+            for(int j=0;j<i;j++)
             {
                     System.out.print((char) ('A'+j));
-                    System.out.print(j+1);
+                    System.out.print(i-j);
             }
                 System.out.println();
             }

@@ -4,6 +4,7 @@ class InvertTriangle_Q_36{
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        sc.close();
         for(int j=1;j< 2* n;j++)
         {
             System.out.print("@");

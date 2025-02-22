@@ -4,6 +4,7 @@ class Triangle_Q_37{
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        sc.close();
         for(int i=0;i<n-1;i++)
         { 
             

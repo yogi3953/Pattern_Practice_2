@@ -6,6 +6,7 @@ class Prblm_50
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        sc.close();
         int a=1;
         for(int i=1;i<=n;i++)
         {

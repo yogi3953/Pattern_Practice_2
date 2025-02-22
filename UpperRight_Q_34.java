@@ -4,6 +4,7 @@ class UpperRight_Q_34{
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        sc.close();
         for(int j=1;j<=n;j++)
         {
             System.out.print("@");

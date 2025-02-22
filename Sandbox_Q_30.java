@@ -4,6 +4,7 @@ class Sandbox_Q_30{
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        sc.close();
         for(int i=0;i<n;i++)
         {
             for(int k=1;k<=i;k++)
